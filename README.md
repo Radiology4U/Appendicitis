@@ -32,35 +32,35 @@ We evaluate **GPT-4.5**, **DeepSeek R1**, and a **Random Forest** classifier for
 - **Between-model tests:** McNemar test (paired)  
 - **ML performance:** ROC/AUC, confusion matrices (train/validation)
 
-🧪 Statistical Notes
+## 🧪 Statistical Notes
 Cohen’s κ interpretation: 0.61–0.80 substantial; 0.81–1.00 almost perfect
 
 Power for κ: target κ=0.8 vs. minimum κ=0.4, 50/50 classes, α=0.05, 80% power → n≈42
 
 McNemar tests compare paired model decisions per patient
 
-🔐 Ethics & Governance
+## 🔐 Ethics & Governance
 IRB approval: 23–1061-retro (GFO Kliniken Troisdorf)
 
 Retrospective; consent waived; no patient-identifying data supplied to AI
 
 Data sharing: de-identified data on reasonable request to the corresponding author
 
-🧰 Tech Stack
+## 🧰 Tech Stack
 Python: Random Forest (scikit-learn), plotting (matplotlib)
 
 R: Accuracy/κ/McNemar (caret, psych, irr), reproducible stats scripts
 
 RAG source: WSES 2020 Jerusalem guidelines (for LLM “with RAG” condition)
 
-⚠️ Limitations (per manuscript)
+## ⚠️ Limitations (per manuscript)
 Retrospective design; incomplete exam/report fields in some cases
 
 LLM guideline parsing limitations (e.g., flowchart comprehension)
 
 No modeling of OR logistics, shared decision-making, or re-prompt variability
 
-🧩 Citations (selected)
+## 🧩 Citations (selected)
 Di Saverio S, et al. WSES 2020: World J Emerg Surg. 2020;15:27.
 
 Sanduleanu S, et al. GPT-3.5 vs ML (appendicitis): AI 2024;5(4):1942-1954.
