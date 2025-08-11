@@ -1,7 +1,7 @@
 This repository accompanies the manuscript:
 
 **From Bedside to Bot-Side: Artificial Intelligence in Emergency Appendicitis Management**  
-Koray Ersahin*, Sebastian Sanduleanu*, Sithin Thulasi Seetha, Johannes Bremm, Cavid Abbasli, Chantal Zimmer, Tim Damer, Jonathan Kottlors, Lukas Goertz, Christiane Bruns, David Maintz, Nuran Abdul-layev  
+Koray Ersahin*, Sebastian Sanduleanu*, Sithin Thulasi Seetha, Johannes Bremm, Cavid Abbasli, Chantal Zimmer, Tim Damer, Jonathan Kottlors, Lukas Goertz, Christiane Bruns, David Maintz, Nuran Abdullayev  
 *Shared first authorship
 
 We evaluate **GPT-4.5**, **DeepSeek R1**, and a **Random Forest** classifier for recommending **appendectomy vs. conservative therapy** in patients with suspected acute appendicitis (AA).
